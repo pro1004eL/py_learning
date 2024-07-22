@@ -4,13 +4,25 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+#todo day 4 #1
+upText =  ['Thirty', 'Days', 'Of', 'Python']
+thitry = ' '.join(upText)
+#print(thitry)
 
+#todo day 4 #2
+#Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
+coding = 'Coding'
+code_for = 'For'
+all = 'All'
+#print(f'{coding} {code_for} {all}')
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Anton')
+#todo day 4 #3
+company = "Coding for all"
+#print(company)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#todo day 4 #5
+#print(len(company), '= lens of the "company" var')
+
+#todo day 4 #6, 7
+print(company.upper() +' = upper and lower = '+ company.lower())
+
