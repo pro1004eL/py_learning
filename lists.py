@@ -157,12 +157,6 @@ countries = [
   'Argentina',
   'Armenia',
   'Australia',
-  'Austria',
-  'Azerbaijan',
-  'Bahamas',
-  'Bahrain',
-  'Bangladesh',
-  'Barbados',
 ]
 
 count_mid = len(countries) // 2
@@ -175,3 +169,9 @@ first_country_list = countries[:mid2_counties]
 second_country_list = countries[mid2_counties:]
 print('first half:', first_country_list)
 print('second half: ', second_country_list)
+
+#todo lvl 3 #3
+counties2 = ['China', 'Ukraine', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+first_country, second_country, third_contr, *scandinav = counties2
+print('first_country:', first_country, '\n' f'second_country: {second_country}', '\n' f'third_contry: {third_contr}')
+print('scandinav: ', scandinav)
