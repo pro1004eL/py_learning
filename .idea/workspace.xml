@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuples.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +29,12 @@
   "keyToString": {
     "Python.lists.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.tuples.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.lists">
+  <component name="RunManager">
     <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
