@@ -75,3 +75,6 @@ elif user_month in spring:
 else:
     print('Please write a correct month')
 
+#todo lvl_2 #3
+
+
