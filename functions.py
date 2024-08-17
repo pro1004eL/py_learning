@@ -36,7 +36,7 @@ def add_all_nums(*numb):
     total = sum(numb)
     return total
 
-print('total:', add_all_nums(25,12,1231312313))
+#print('total:', add_all_nums(25,12,1231312313))
 
 #todo #4
 def convert_celsius_to_fahrenheit(c):
@@ -44,7 +44,7 @@ def convert_celsius_to_fahrenheit(c):
         return 'Please enter a number.'
     c_to_f = c * (9/5) + 32
     return c_to_f
-print('Temperature converted to °F: ', convert_celsius_to_fahrenheit(27))
+#print('Temperature converted to °F: ', convert_celsius_to_fahrenheit(27))
 
 #todo #5
 def season(month):
@@ -53,19 +53,43 @@ def season(month):
     autumn = ['September', 'October', 'November']
     winter = ['December', 'January', 'February']
     if month in spring:
-        return f'You {month} month in the Spring'
+        return f'Your {month} month in the Spring'
     elif month in summer:
-        return f'You {month} month in the Summer'
+        return f'Your {month} month in the Summer'
     elif month in autumn:
-        return f'You {month} month in the Autumn'
+        return f'Your {month} month in the Autumn'
     elif month in winter:
-        return f'You {month} month in the Winter'
+        return f'Your {month} month in the Winter season'
     else:
         return"Please enter a month."
 
-print(season('November'))
+#print(season('November'))
 
-#todo #6
+#todo #8
+def print_list(*lst):
+    for i in lst:
+        print(i)
+
+#print_list('test1', 'test2', 'test3')
+
+#todo #9
+def reverse_list(arg):
+    return arg[::-1]
+
+#print(reverse_list([1, 2, 3, 4, 18, 10]))
+#print(reverse_list(['five', '4', 'two', 'ten']))
+
+#todo #10
+def capitalize_list_items(lst):
+    capital_list = []
+    for item in lst:
+        capital_list.append(item.capitalize())
+    return capital_list
+
+print(capitalize_list_items(['centavr', 'ded', 'game']))
+
+
+
 
 
 
