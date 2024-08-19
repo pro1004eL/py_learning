@@ -88,6 +88,88 @@ def capitalize_list_items(lst):
 
 print(capitalize_list_items(['centavr', 'ded', 'game']))
 
+#todo #11
+def add_item(list, item):
+    list.append(item)
+    return list
+
+print((add_item([123, '323'], 16)))
+
+#todo #12
+def remove_item(list, rem_item):
+    list.remove(rem_item)
+    return list
+
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+numbers = [2, 3, 7, 9, 124, 32, 66]
+print(remove_item(numbers, 32))
+
+#todo #13
+def sum_of_numbers(n):
+    total = 0
+    for i in range(n+1):
+        total = total + i
+    return total
+
+print(sum_of_numbers(100))
+
+#todo $14
+# def sum_of_odds(o):
+#     total = 0
+#     for odd in range(o+1):
+#         if odd % 2 != 0:
+#             total = total + odd
+#     return total
+#
+# print(sum_of_odds(10))
+
+#todo $15
+# def sum_of_evens(o):
+#     total = 0
+#     for even in range(o+1):
+#         if even % 2 == 0:
+#             total = total + even
+#     return total
+#
+# print(sum_of_evens(10))
+
+#todo Lvl_2 #1
+def evens_and_odds(num):
+    total_odd = 0
+    total_even = 0
+    for i in range(1, num+1):
+        if i % 2 == 0:
+            total_even += 1
+        else:
+            total_odd += 1
+
+    print('Even numbers: ', total_even)
+    print('Odd numbers: ', total_odd)
+
+print(evens_and_odds(100))
+
+#todo Lvl_3 #2
+def unique_item(lst):
+    return len(lst) == len(set(lst))
+
+#print(unique_item(['test', 'test2', 'test3', 1, 2]))
+
+#todo Lvl_3 #3
+def data_type(lst):
+    if not lst:
+        return True
+
+    first_item_type = type(lst[0])
+    for item in lst:
+        if type(item) != first_item_type:
+            return False
+    return True
+
+print(data_type([1, 2, '3']))
+
+
+
+
 
 
 
