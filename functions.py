@@ -1,5 +1,8 @@
 
 import math
+import random
+import mymodule
+import string
 
 print(' ')
 # def sum_of_num(n):
@@ -168,14 +171,46 @@ def data_type(lst):
 print(data_type([1, 2, '3']))
 
 
+#=================================#=================================#=================================
+print(' \n')
+#todo  Day 13 Modules Lvl_1 #1
+
+def random_user_id():
+    characters = string.ascii_lowercase + string.digits
+    user_id = ''.join(random.choice(characters) for _ in range(6))
+    return user_id
+
+print(random_user_id())
+
+#help(string)
+
+def random_num2(n1, n2):
+    return random.randint(n1, n2)
+
+print(random_num2(2,12))
+
+def random_user_id2():
+    characters2 = string.ascii_lowercase + string.digits
+    user_id = ''.join(random.choices(characters2, k=5))
+    return user_id
+
+print(random_user_id2())
+
+#todo  Day 13 Modules Lvl_1 #2
+def user_id_gen_by_user():
+    num_characters = int(input('Please enter a number of characters: '))
+    num_iterations = int(input('Please enter a number of iterations: '))
+    characters = string.ascii_letters + string.digits
+
+
+    for i in range(num_iterations):
+        user_id = ''.join(random.choice(characters) for _ in range(num_characters))
+        print(user_id)
 
 
 
 
-
-
-
-
+print(user_id_gen_by_user())
 
 
 

@@ -1,4 +1,6 @@
 
+import mymodule
+
 print( ' ')
 
 #todo Day 8 #1 , #2
@@ -34,7 +36,7 @@ student = {
 
 student['skills'].append('Charles')
 student['skills'].append('GraphQL')
-print(student['skills'])
+#print(student['skills'])
 
 # my_dict = {
 #     'fruits': ['apple', 'banana'],
@@ -49,15 +51,17 @@ print(student['skills'])
 #print(my_dict)
 
 #todo #7-8
+
 # print(student.keys())
 # print(student.values())
 # print(student.items())
 
 #todo #9
 student.pop('age')
-print(student)
+#print(student)
 
-
+#==============================================================
+print(mymodule.info_user('Anton', 'Kolomiiets'))
 
 
 
