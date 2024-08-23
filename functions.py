@@ -204,7 +204,7 @@ def user_id_gen_by_user():
 
 
     for i in range(num_iterations):
-        user_id = ''.join(random.choice(characters) for _ in range(num_characters))
+        user_id = ''.join(random.choices(characters, k=num_characters))
         print(user_id)
 
 
