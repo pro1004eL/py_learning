@@ -1,5 +1,5 @@
 # This is a sample Python script.
-
+import datetime
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
@@ -115,5 +115,4 @@ sub_22 = 'because'
 #todo day4 #34
 list33 = 'Name \tAge \tCountry \tCity \nAsabeneh \t250 \tFinland \tHelsinki'
 print(list33)
-
 

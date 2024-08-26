@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add new list &quot;Dictionaries&quot;">
-      <change afterPath="$PROJECT_DIR$/datetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateandtime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
     "Python.lists.executor": "Run",
     "Python.loops.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.mymodule.executor": "Run",
     "Python.tuples.executor": "Run",
     "Python.version4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",

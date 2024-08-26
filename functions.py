@@ -3,6 +3,7 @@ import math
 import random
 import mymodule
 import string
+import datetime
 
 print(' ')
 # def sum_of_num(n):
@@ -206,9 +207,6 @@ def user_id_gen_by_user():
     for i in range(num_iterations):
         user_id = ''.join(random.choices(characters, k=num_characters))
         print(user_id)
-
-
-
 
 print(user_id_gen_by_user())
 
