@@ -2,5 +2,9 @@ from datetime import date, datetime, time, timezone
 
 print(' ')
 
-d = datetime.now()  # Gets the current date
-print(d)
+d = date.today()
+n = datetime.now()
+m = n.minute
+h = n.hour
+print(f'{d}, {h}:{m}')
+
