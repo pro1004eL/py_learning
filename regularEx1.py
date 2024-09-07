@@ -94,4 +94,4 @@ word_count = Counter(words) # Count the frequency of each word
 most_common_word = word_count.most_common()
 # Count word frequency
 for count, word in most_common_word:
-    print(f'({word}, {count}),')
+    print(f'''({word}, {count}),''')
