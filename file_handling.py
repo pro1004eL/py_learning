@@ -1,4 +1,6 @@
 import os
+import json
+import csv
 
 print('')
 
@@ -54,9 +56,44 @@ else:
 # we use three quotes and make it multiple line to make it more readable
 person_json = "{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}"
 person_json = '''{
-    "name":"Asabeneh",
-    "country":"Finland",
-    "city":"Helsinki",
+    "name":"Anton",
+    "country":"Ukraine",
+    "city":"Ovruch",
     "skills":["JavaScrip", "React","Python"]
 }'''
+print(type(person_json))
+
+#todo Changing JSON to Dictionary
+person_dic = json.loads(person_json)
+print(type(person_dic))
+print(person_dic)
+print(person_dic['city'])
+
+#todo Changing Dictionary to JSON
+# python dictionary
+person = {
+    "name":"Anton",
+    "country":"Ukraine",
+    "city":"Ovruch",
+    "skills": ["JavaScrip", "React", "Python"]
+}
+
+person_json_to_dic = json.dumps(person, indent=4)
+print(type(person_json_to_dic))
+print(person_json_to_dic)
+
+#todo File with csv Extension
+
+with open('/Users/Anton/python/python_learning/py_30_Days/csv_exampl.csv') as f_csv:
+    csv_reader = csv.reader(f_csv, delimiter=',') # we use, reader method to read csv
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print(f'Column names are: {', '.join(row)}')
+            line_count += 1
+        else:
+            print(f'\t{row[0]} is a lerner. He is from {row[2]}, his age: {row[3]}')
+            line_count += 1
+    print(f'Number of lines: {line_count}')
+
 
