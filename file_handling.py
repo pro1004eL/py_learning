@@ -97,3 +97,14 @@ with open('/Users/Anton/python/python_learning/py_30_Days/csv_exampl.csv') as f_
     print(f'Number of lines: {line_count}')
 
 
+#todo HW_level1_#1
+
+with open('/Users/Anton/python/python_learning/py_30_Days/obama_speech.txt') as obama:
+    lines = obama.read().splitlines()
+    line_zero = 0
+    for row in lines:
+        if
+    print(type(lists))
+    print('Count Obama lines in the text: ', lists)
+
+
