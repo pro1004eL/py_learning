@@ -37,7 +37,7 @@ f.close()
 with open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt') as f:
     lines = f.readlines()
     print(type(lines))
-    print(lines)
+    print('test', lines)
 
 # Opening Files for Writing and Updating
 # with open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt', 'a') as f:
@@ -99,12 +99,48 @@ with open('/Users/Anton/python/python_learning/py_30_Days/csv_exampl.csv') as f_
 
 #todo HW_level1_#1
 
-with open('/Users/Anton/python/python_learning/py_30_Days/obama_speech.txt') as obama:
-    lines = obama.read().splitlines()
-    line_zero = 0
-    for row in lines:
-        if
-    print(type(lists))
-    print('Count Obama lines in the text: ', lists)
+# Open and read the file
+with open('/Users/Anton/python/python_learning/py_30_Days/obama_speech.txt', 'r') as obama:
+    text1 = obama.read()
+    # Count the number of lines
+    lines = text1.split('\n')
+    num_lines = len(lines)
+    print('Count Obama lines in the text: ', num_lines)
+
+    # Count the number of words
+    words = text1.split()
+    num_words = len(words)
+    print('Count words in the Obama text: ', num_words)
+
+#todo HM_2
+
+def most_spoken_languages(file_path, num_languages):
+    # Read the JSON data from the file
+    with open(file_path, 'r') as file:
+        countries_data = json.load(file)
+
+    # Extract all languages from the JSON data and count their occurrences
+    language_counts = {}
+    for country in countries_data:
+        for language in country['languages']:
+            if language in language_counts:
+                language_counts[language] += 1
+            else:
+                language_counts[language] = 1
+
+    # Convert the dictionary to a list of tuples and sort it by count in descending order
+    sorted_languages = sorted(language_counts.items(), key=lambda x: x[1], reverse=True)
+
+    # Return the top ten most spoken languages
+    return sorted_languages[:num_languages]
+
+# Replace 'countries.json' with the actual path to your JSON file
+file_path = '/Users/Anton/python/python_learning/py_30_Days/counties_data.json'
+#top_languages = most_spoken_languages(file_path, num_languages)
+
+print(most_spoken_languages(file_path, 3))
+
+
+
 
 
