@@ -131,14 +131,36 @@ def most_spoken_languages(file_path, num_languages):
     # Convert the dictionary to a list of tuples and sort it by count in descending order
     sorted_languages = sorted(language_counts.items(), key=lambda x: x[1], reverse=True)
 
-    # Return the top ten most spoken languages
+    # Return the top most spoken languages
     return sorted_languages[:num_languages]
 
 # Replace 'countries.json' with the actual path to your JSON file
 file_path = '/Users/Anton/python/python_learning/py_30_Days/counties_data.json'
 #top_languages = most_spoken_languages(file_path, num_languages)
 
-print(most_spoken_languages(file_path, 3))
+print(most_spoken_languages(file_path, 6))
+
+#todo home_work #3
+
+def most_country_population(file_path, thenumber):
+    with open(file_path, 'r') as population_file:
+        country_list = json.load(population_file) # json => list
+
+    # Extract the country name and population, and create a list of tuples
+    #A list comprehension is used to extract each country's name and its population, creating a list of dictionaries in the format {'country': country_name, 'population': population}
+    country_population = [{'country': country['name'], 'population': country['population']} for country in country_list]
+
+
+    # Convert the dictionary to a list of tuples and sort it by count in descending order
+    #The list of dictionaries is sorted in descending order based on the population using sorted() with a key that sorts by the 'population' field.
+    population_sorted = sorted(country_population, key=lambda x: x['population'], reverse=True)
+
+    # Return the top most populated countries
+    return population_sorted[:thenumber]
+
+print(most_country_population(file_path,5))
+
+
 
 
 
