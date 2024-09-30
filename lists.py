@@ -175,3 +175,83 @@ counties2 = ['China', 'Ukraine', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'
 first_country, second_country, third_contr, *scandinav = counties2
 print('first_country:', first_country, '\n' f'second_country: {second_country}', '\n' f'third_contry: {third_contr}')
 print('scandinav: ', scandinav)
+
+adwentures_of_tom_sawer = '''Tom gave up the brush with reluctance in his face but alacrity in his heart. 
+And while the late steamer "Big Missouri" worked and sweated in the sun, the retired artist sat on a barrel in the shade close by,
+ dangled his legs, munched his apple, and planned the slaughter of more innocents. 
+ There was no lack of material; boys happened along every little while; 
+ they came to jeer, but remained to whitewash. 
+ By the time Ben was fagged out, Tom had traded the next chance to Billy Fisher for a kite, in good repair; 
+ and when he played out, Johnny Miller bought in for a dead rat and a string to swing it with—and so on, and so on, 
+ hour after hour. And when the middle of the afternoon came, from being a poor poverty, stricken boy in the morning, 
+ Tom was literally rolling in wealth. '''
+
+# task 07 - day 4
+""" Розділіть змінну adwentures_of_tom_sawer по кінцю речення.
+Збережіть результат у змінній adwentures_of_tom_sawer_sentences
+"""
+# розділяємо текст по кінцю речення:
+sentences = adwentures_of_tom_sawer.split('.')
+#adwentures_of_tom_sawer_sentences = [sentence.strip() for sentence in adwentures_of_tom_sawer.split('.') if sentence]
+# створюємо пустий список для збереження результату:
+adwentures_of_tom_sawer_sentences = []
+# ітеруємо рядки за допомогою циклу for:
+for sentence in sentences:
+    # видаляємо зайві пробіли з початку та кінця кожного рядка:
+    cleaned_sentence = sentence.strip()
+    if cleaned_sentence:
+        # добавляємо рядки до кінцевого списку
+        adwentures_of_tom_sawer_sentences.append(cleaned_sentence)
+
+print(adwentures_of_tom_sawer_sentences)
+
+# task 09 - day 4
+""" Перевірте чи починається якесь речення з "By the time".
+"""
+
+# Initialize a flag to check if any sentence starts with "By the time"
+starts_with_phrase = False
+
+for phrase in adwentures_of_tom_sawer_sentences:
+    if phrase.startswith('By the time'):
+        starts_with_phrase = True
+        print('Task 09')
+        print("There is a sentence that starts with 'By the time'.")
+# якщо сходження немає, виводимо помилку
+#assert starts_with_phrase, "В тексті не має речення яке починається з 'By the time'"
+
+# print('Task 09')
+# if starts_with_phrase:
+#     print("There is a sentence that starts with 'By the time'.")
+# else:
+#     print("No sentence starts with 'By the time'.")
+
+# =============================
+def extract_test_case_names(log_lines):
+    test_case_names = []
+
+    # Iterate through each line in the input list
+    for line in log_lines:
+        # Check if 'TestCase:' exists in the line
+        if 'TestCase:' in line:
+            # Split the line by 'TestCase: ' and take the second part (which contains the test name)
+            parts = line.split('TestCase: ')
+            # The test name will be after 'TestCase:', strip any extra spaces or newlines
+            test_name = parts[1].strip()
+            # Append the test name to the result list
+            test_case_names.append(test_name)
+
+    return test_case_names
+
+
+# Example usage:
+log_lines = [
+    '2023-04-27 15:30:45 - TestCase: login_successful',
+    '2023-04-27 15:35:12 - TestCase: invalid_password',
+    '2023-04-27 16:00:00 - TestCase: password_reset'
+]
+
+test_cases = extract_test_case_names(log_lines)
+print(test_cases)
+
+

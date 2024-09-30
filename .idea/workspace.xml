@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add new list &quot;Dictionaries&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regularEx1.py" beforeDir="false" afterPath="$PROJECT_DIR$/regularEx1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,26 +27,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.comprehencion.executor": "Run",
-    "Python.conditionals.executor": "Run",
-    "Python.dateandtime.executor": "Run",
-    "Python.datetime.executor": "Run",
-    "Python.dictionaries.executor": "Run",
-    "Python.file_handling.executor": "Run",
-    "Python.functions.executor": "Run",
-    "Python.lists.executor": "Run",
-    "Python.loops.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mymodule.executor": "Run",
-    "Python.regularEx1.executor": "Run",
-    "Python.tuples.executor": "Run",
-    "Python.version4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.comprehencion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditionals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dateandtime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mymodule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regularEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.version4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_30_Days" />

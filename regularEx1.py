@@ -48,6 +48,7 @@ print(match7)
 #todo Period(.)
 txt8 = 'Apple and banana are fruits. old cliche says'
 match8 = r'[Aa].' # this square bracket means a and . means any character except new line
+print('task8')
 print(re.findall(match8, txt8))
 
 #todo Period(.) One or more times(+)

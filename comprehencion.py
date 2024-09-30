@@ -3,7 +3,7 @@ import string
 
 print(' ')
 
-#todo Day_14 "Comprehencion"
+#todo Day_13 "Comprehencion"
 even_numbers = [i for i in range(45) if i % 2 == 0]
 
 

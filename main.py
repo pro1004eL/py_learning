@@ -116,3 +116,4 @@ sub_22 = 'because'
 list33 = 'Name \tAge \tCountry \tCity \nAsabeneh \t250 \tFinland \tHelsinki'
 print(list33)
 
+help('keywords')
