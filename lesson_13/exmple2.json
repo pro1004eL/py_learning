@@ -1,0 +1,21 @@
+
+[
+    {
+        "name": "Austria",
+        "capital": "Vienna",
+        "languages": [
+            "German"
+        ],
+        "population": 8725931,
+        "flag": "https://restcountries.eu/data/aut.svg",
+        "currency": "Euro"
+    },
+
+    {
+        "name": "Anton",
+        "age": 18,
+        "country": "UA",
+        "skills": ["Python", "SQL", "GraphQL"],
+        "experience": 2
+    }
+]

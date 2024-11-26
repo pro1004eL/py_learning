@@ -62,3 +62,20 @@ for odd1 in range(0, 10):
 
 
 
+# task 3
+# indexes to check age
+indexes_to_check_age = [6, 10, 13]
+
+# # Check if all people at the specified indexes have age >= 30
+#acceptable_people = all(people_records[index][2] >= 30 for index in indexes_to_check_age)
+
+for index in indexes_to_check_age:
+  acceptable_people = people_records[index][2] >= 30
+
+# Print the condition check result
+print('Task 3')
+
+if not acceptable_people:
+  print('Not all people at the specified indexes have age >= 30')
+else:
+    print('All people at the specified indexes have age >= 30')

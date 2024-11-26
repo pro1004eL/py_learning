@@ -89,7 +89,7 @@ def capitalize_list_items(lst):
     for item in lst:
         capital_list.append(item.capitalize())
     return capital_list
-
+print('100000000')
 print(capitalize_list_items(['centavr', 'ded', 'game']))
 
 #todo #11
@@ -97,7 +97,7 @@ def add_item(list, item):
     list.append(item)
     return list
 
-print((add_item([123, '323'], 16)))
+print((add_item([123, '2424', 'dfsdgdgs', '323'], 16)))
 
 #todo #12
 def remove_item(list, rem_item):
@@ -169,7 +169,7 @@ def data_type(lst):
             return False
     return True
 
-print(data_type([1, 2, '3']))
+print(data_type([1, 2, 3]))
 
 
 #=================================#=================================#=================================

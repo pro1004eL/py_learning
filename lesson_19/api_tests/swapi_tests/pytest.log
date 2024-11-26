@@ -1,0 +1,8 @@
+22:04:25 - rest_base.py - _execute_request:14 - INFO - request was sent to get https://swapi.dev/api/people/ with params {'page': 1}
+ Response has status 200
+22:04:25 - rest_base.py - _execute_request:14 - INFO - request was sent to get https://swapi.dev/api/people/ with params {'page': 2}
+ Response has status 200
+22:04:26 - rest_base.py - _execute_request:14 - INFO - request was sent to get https://swapi.dev/api/people/ with params {'page': 5}
+ Response has status 200
+22:04:26 - rest_base.py - _execute_request:14 - INFO - request was sent to get https://swapi.dev/api/people/ with params {'page': 10}
+ Response has status 404

@@ -31,9 +31,11 @@ print(dimension3())
 
 #todo #3
 
-number3 = [(i, 1, i**2, i**3) for i in range(10)]
+number3 = [(i, 1, i**2, i**3) for i in range(4)]
 for row in number3:
     print(row)
+print('task 03')
+print(number3)
 
 #todo #4
 countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
@@ -56,3 +58,18 @@ print(next_level)
 #         flattened_list.append([country_upper, country_abbr, capital_upper])
 #
 # print(flattened_list)
+
+lst1 = ['1', '2', 3, True, 'False', 5, '6', 7, 8, 'Python', 9, 0, 'Lorem Ipsum']
+
+list2 = []
+
+for item in lst1:
+    if type(item) == type('str'):
+        list2.append(item) # Create a new list that contains only the string variables from lst1
+
+print(list2)
+
+# Create a new lst2 that contains only the string variables from lst1
+lst3 = [item for item in lst1 if isinstance(item, str)]
+
+print(lst3)

@@ -3,35 +3,35 @@ import json
 import csv
 
 print('')
-
-f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
-print(f)
-
-txt = f.read()
-print(type(txt))
-print(txt)
-f.close()
-
-# only 1 line
-f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
-line1 = f.readline()
-print(type(line1))
-print(line1)
-f.close()
-
-# str => list
-f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
-line1 = f.readlines()
-print(type(line1))
-print(line1)
-f.close()
-
-# Another way to get all the lines as a list is using splitlines():
-f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
-line1 = f.read().splitlines()
-print(type(line1))
-print(line1)
-f.close()
+#
+# f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
+# print(f)
+#
+# txt = f.read()
+# print(type(txt))
+# print(txt)
+# f.close()
+#
+# # only 1 line
+# f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
+# line1 = f.readline()
+# print(type(line1))
+# print(line1)
+# f.close()
+#
+# # str => list
+# f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
+# line1 = f.readlines()
+# print(type(line1))
+# print(line1)
+# f.close()
+#
+# # Another way to get all the lines as a list is using splitlines():
+# f = open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt')
+# line1 = f.read().splitlines()
+# print(type(line1))
+# print(line1)
+# f.close()
 
 # There is a new way of opening files using with - closes the files by itself. Let us rewrite the the previous example with the with method:
 with open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt') as f:
@@ -103,14 +103,12 @@ with open('/Users/Anton/python/python_learning/py_30_Days/csv_exampl.csv') as f_
 with open('/Users/Anton/python/python_learning/py_30_Days/obama_speech.txt', 'r') as obama:
     text1 = obama.read()
     # Count the number of lines
-    lines = text1.split('\n')
-    num_lines = len(lines)
-    print('Count Obama lines in the text: ', num_lines)
+    num_lines = len(text1.split('\n'))
+    print('level 1 #1 = Count Obama lines in the text: ', num_lines)
 
     # Count the number of words
-    words = text1.split()
-    num_words = len(words)
-    print('Count words in the Obama text: ', num_words)
+    num_words = len(text1.split())
+    print('level 1 #1 = Count words in the Obama text: ', num_words)
 
 #todo HM_2
 
@@ -159,6 +157,8 @@ def most_country_population(file_path, thenumber):
     return population_sorted[:thenumber]
 
 print(most_country_population(file_path,5))
+
+
 
 
 
