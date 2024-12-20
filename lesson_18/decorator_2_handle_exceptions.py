@@ -2,7 +2,7 @@
 Створіть декоратор, який перехоплює та обробляє винятки, які виникають в ході виконання функції.
 '''
 
-def handle_specific_exceptions(func):
+def handle_exceptions(func):
     def wrapper(*args, **kwargs):
         try:
             result = func(*args, **kwargs)
@@ -15,15 +15,15 @@ def handle_specific_exceptions(func):
             return f"ValueError in {func.__name__}: {e}"
     return wrapper
 
-@handle_specific_exceptions
+@handle_exceptions
 def divide(a, b):
     return a / b
 
-@handle_specific_exceptions
+@handle_exceptions
 def access_list_element(lst, index):
     return lst[index]
 
-@handle_specific_exceptions
+@handle_exceptions
 def parse_int(value):
     return int(value)
 

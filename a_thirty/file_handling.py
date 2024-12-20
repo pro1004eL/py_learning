@@ -34,7 +34,7 @@ print('')
 # f.close()
 
 # There is a new way of opening files using with - closes the files by itself. Let us rewrite the the previous example with the with method:
-with open('/Users/Anton/python/python_learning/py_30_Days/reading_file_example.txt') as f:
+with open('/a_thirty/reading_file_example.txt') as f:
     lines = f.readlines()
     print(type(lines))
     print('test', lines)
@@ -84,7 +84,7 @@ print(person_json_to_dic)
 
 #todo File with csv Extension
 
-with open('/Users/Anton/python/python_learning/py_30_Days/csv_exampl.csv') as f_csv:
+with open('/a_thirty/csv_exampl.csv') as f_csv:
     csv_reader = csv.reader(f_csv, delimiter=',') # we use, reader method to read csv
     line_count = 0
     for row in csv_reader:
@@ -100,7 +100,7 @@ with open('/Users/Anton/python/python_learning/py_30_Days/csv_exampl.csv') as f_
 #todo HW_level1_#1
 
 # Open and read the file
-with open('/Users/Anton/python/python_learning/py_30_Days/obama_speech.txt', 'r') as obama:
+with open('/a_thirty/obama_speech.txt', 'r') as obama:
     text1 = obama.read()
     # Count the number of lines
     num_lines = len(text1.split('\n'))
@@ -133,7 +133,7 @@ def most_spoken_languages(file_path, num_languages):
     return sorted_languages[:num_languages]
 
 # Replace 'countries.json' with the actual path to your JSON file
-file_path = '/Users/Anton/python/python_learning/py_30_Days/counties_data.json'
+file_path = '/a_thirty/counties_data.json'
 #top_languages = most_spoken_languages(file_path, num_languages)
 
 print(most_spoken_languages(file_path, 6))

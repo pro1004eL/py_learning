@@ -2,7 +2,6 @@
 Напишіть декоратор, який логує аргументи та результати викликаної функції.
 '''
 
-
 def log_arguments_and_results(func):
 
     def wrapper(*args, **kwargs):

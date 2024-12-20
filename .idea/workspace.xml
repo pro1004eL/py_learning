@@ -5,15 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add new list &quot;Dictionaries&quot;">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_settings.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/api/local_sqlite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/api/local_sqlite/sqlite_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/api/qa_auto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/api/qa_auto/qaauto_ctrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/api/qa_auto/schema_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local_server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local_server/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local_server/db_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qaauto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qaauto/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_get_current_negative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_get_current_positive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_get_current_positive_some_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comprehencion.py" beforeDir="false" afterPath="$PROJECT_DIR$/comprehencion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_thirty/english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a_thirty/english.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_thirty/file_handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_thirty/file_handling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/gorest/gorest_contoller.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/gorest/gorest_contoller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/rest_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/rest_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/swapi/get_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/swapi/get_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/swapi/swapi_contoller.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/swapi/swapi_contoller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/csv_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/csv_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/exmple.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/exmple.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/homework_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/homework_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/json_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/json_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_14/class_introduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/class_introduce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_14/hm_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/hm_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_14/lesson14_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/lesson14_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_14/parametrize_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/parametrize_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_14/self_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/self_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_15/homework_15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15/homework_15_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_15/test_rhombus_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15/test_rhombus_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_15/test_rhombus_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15/test_rhombus_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/homework_16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/homework_16_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/homework_16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/homework_16_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_abstract_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_abstract_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/test_atributes_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/test_atributes_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16/test_atributes_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/test_atributes_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_18/decorator_1_log_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/decorator_1_log_arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_18/decorator_2_handle_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/decorator_2_handle_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_18/generator_2_fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/generator_2_fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_18/iterator_1_sandwich.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/iterator_1_sandwich.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_18/iterator_2_even_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/iterator_2_even_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,49 +86,106 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.comprehencion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conditionals.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dateandtime.executor&quot;: &quot;Run&quot;,
-    &quot;Python.datetime.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_handling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mymodule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.regularEx1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tuples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.version4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for get_current.test_get_current_negative.executor": "Run",
+    "Python tests.Python tests for get_current.test_get_current_positive.executor": "Run",
+    "Python tests.Python tests for test_create_user.test_create_user.executor": "Run",
+    "Python tests.Python tests for test_create_user.test_create_user_auth_negative.executor": "Run",
+    "Python tests.Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature.executor": "Run",
+    "Python tests.Python tests for test_get_user.test_get_user.executor": "Run",
+    "Python tests.Python tests for test_get_users.test_get_users_pages.executor": "Run",
+    "Python tests.Python tests in get_current.py.executor": "Run",
+    "Python tests.Python tests in parametrize_example.py.executor": "Run",
+    "Python tests.Python tests in qaauto.executor": "Run",
+    "Python tests.Python tests in test_atributes_from_Manager_and_Developer.py.executor": "Run",
+    "Python tests.Python tests in test_atributes_negative.py.executor": "Run",
+    "Python tests.Python tests in test_atributes_positive.py.executor": "Run",
+    "Python tests.Python tests in test_capitalize_negative.py.executor": "Run",
+    "Python tests.Python tests in test_create_user.py.executor": "Run",
+    "Python tests.Python tests in test_get_current.py.executor": "Run",
+    "Python tests.Python tests in test_get_current_negative.py.executor": "Run",
+    "Python tests.Python tests in test_get_current_positive.py.executor": "Run",
+    "Python tests.Python tests in test_get_user.py.executor": "Run",
+    "Python tests.Python tests in test_get_users.py.executor": "Run",
+    "Python tests.Python tests in test_rhombus_negative.py.executor": "Run",
+    "Python tests.Python tests in test_rhombus_positive.py.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.class_introduce.executor": "Run",
+    "Python.comprehencion.executor": "Run",
+    "Python.conditionals.executor": "Run",
+    "Python.constants.executor": "Debug",
+    "Python.csv_example.executor": "Run",
+    "Python.datatime_module.executor": "Run",
+    "Python.dateandtime.executor": "Run",
+    "Python.datetime.executor": "Run",
+    "Python.decorator_1.executor": "Run",
+    "Python.decorator_1_log_arguments.executor": "Run",
+    "Python.decorator_2.executor": "Run",
+    "Python.decorator_2_handle_exceptions.executor": "Run",
+    "Python.dictionaries.executor": "Run",
+    "Python.file_handling.executor": "Run",
+    "Python.functions.executor": "Run",
+    "Python.generator_1.executor": "Run",
+    "Python.generator_2.executor": "Run",
+    "Python.get_current.executor": "Run",
+    "Python.get_image.executor": "Run",
+    "Python.hm_14.executor": "Run",
+    "Python.homework_13.executor": "Run",
+    "Python.homework_15_1.executor": "Run",
+    "Python.homework_16_1.executor": "Run",
+    "Python.homework_16_2.executor": "Run",
+    "Python.homework_21_1.executor": "Run",
+    "Python.iterator_1_sandwich.executor": "Run",
+    "Python.iterator_2_even_numbers.executor": "Run",
+    "Python.iterators.executor": "Debug",
+    "Python.json_example.executor": "Run",
+    "Python.lesson14_class.executor": "Run",
+    "Python.lesson22.executor": "Run",
+    "Python.lesson_16.executor": "Run",
+    "Python.lesson_16_2.executor": "Run",
+    "Python.lesson_16_3.executor": "Run",
+    "Python.lesson_16_abstract.executor": "Run",
+    "Python.lesson_19.executor": "Run",
+    "Python.lists.executor": "Run",
+    "Python.loops.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mymodule.executor": "Run",
+    "Python.qaauto_ctrl.executor": "Run",
+    "Python.regularEx1.executor": "Run",
+    "Python.rest_base.executor": "Run",
+    "Python.schema_check.executor": "Run",
+    "Python.self_example.executor": "Run",
+    "Python.settings.executor": "Run",
+    "Python.swapi_contoller.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.time-module.executor": "Run",
+    "Python.time_delta_module2.executor": "Run",
+    "Python.timedelta_module.executor": "Run",
+    "Python.tuples.executor": "Run",
+    "Python.version4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/Anton/python/python_learning/py_30_Days/tests/qa_auto"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py_30_Days" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/qa_auto" />
+      <recent name="$PROJECT_DIR$/core/api/local_sqlite" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lesson_22" />
+      <recent name="$PROJECT_DIR$/lesson_21" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/api/qa_auto" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests" />
+      <recent name="$PROJECT_DIR$/core/api" />
+      <recent name="$PROJECT_DIR$/a_thirty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.schema_check">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
@@ -83,7 +199,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a_thirty/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,9 +208,95 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="schema_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_30_Days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/api/qa_auto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/api/qa_auto/schema_check.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py_30_Days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/qaauto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_current_positive_some_feature.test_get_current_positive_some_feature&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.qaauto.test_get_current_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py_30_Days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/qaauto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.qaauto.test_get_current_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.qaauto.test_get_current_positive.test_get_current_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py_30_Days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/qaauto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.qaauto.test_get_current_positive.test_get_current_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in qaauto" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py_30_Days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/qaauto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/qaauto&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lists" />
+        <item itemvalue="Python.schema_check" />
+        <item itemvalue="Python tests.Python tests in qaauto" />
+        <item itemvalue="Python tests.Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature" />
+        <item itemvalue="Python tests.Python tests for tests.qaauto.test_get_current_positive" />
+        <item itemvalue="Python tests.Python tests for tests.qaauto.test_get_current_positive.test_get_current_positive" />
       </list>
     </recent_temporary>
   </component>

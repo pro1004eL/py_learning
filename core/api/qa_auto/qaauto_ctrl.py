@@ -1,3 +1,4 @@
+from core.api.qa_auto.schema_check import CurrentSchema
 from core.api.rest_base import RestBase
 from settings import settings
 
@@ -21,7 +22,7 @@ class QAAutoCtrl(RestBase):
 
         return response
 
-    def get_current(self, status_code=200, use_cookies=True):
+    def get_current(self, status_code=200, use_cookies=True, check_schema=True):
         """
         send request to get  /users/current
         """
@@ -29,7 +30,11 @@ class QAAutoCtrl(RestBase):
 
         cookies = self.cookies if use_cookies else None
 
-        return self._execute_request(method='get', url=url, status_code=status_code, cookies=cookies)
+        response = self._execute_request(method='get', url=url, status_code=status_code, cookies=cookies)
+        if check_schema:
+            CurrentSchema().load(response.json())
+        return response
+
 
     def get_profile(self, status_code=200, use_cookies=True):
         """
@@ -40,3 +45,6 @@ class QAAutoCtrl(RestBase):
         cookies = self.cookies if use_cookies else None
 
         return self._execute_request(method='get', url=url, status_code=status_code, cookies=cookies)
+
+
+
