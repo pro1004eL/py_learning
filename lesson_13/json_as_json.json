@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "is_active": true,
+        "friends": null,
+        "name": "Ivan"
+    },
+    {
+        "id": 1,
+        "is_active": true,
+        "friends": null,
+        "name": "Ivan"
+    },
+    {
+        "id": 1,
+        "is_active": true,
+        "friends": [
+            {
+                "id": 1,
+                "is_active": true,
+                "friends": null,
+                "name": "Ivan"
+            }
+        ],
+        "name": "Ivan"
+    }
+]

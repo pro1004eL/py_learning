@@ -1,0 +1,9 @@
+21:00:34 - rest_base.py - _execute_request:14 - INFO - request was sent to post https://qauto.forstudy.space/api/auth/signin with params None
+ Response has status 200
+21:00:34 - rest_base.py - _execute_request:17 - INFO - response {'status': 'ok', 'data': {'userId': 165526, 'photoFilename': 'default-user.png', 'distanceUnits': 'km', 'currency': 'usd'}}
+21:00:35 - rest_base.py - _execute_request:14 - INFO - request was sent to get https://qauto.forstudy.space/api/users/current with params None
+ Response has status 200
+21:00:35 - rest_base.py - _execute_request:17 - INFO - response {'status': 'ok', 'data': {'userId': 165526, 'currency': 'usd', 'distanceUnits': 'km', 'photoFilename': 'default-user.png'}}
+21:00:35 - rest_base.py - _execute_request:14 - INFO - request was sent to get https://qauto.forstudy.space/api/users/profile with params None
+ Response has status 200
+21:00:35 - rest_base.py - _execute_request:17 - INFO - response {'status': 'ok', 'data': {'userId': 165526, 'photoFilename': 'default-user.png', 'name': 'Tom', 'lastName': 'Cruse'}}

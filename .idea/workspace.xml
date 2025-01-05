@@ -5,62 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add new list &quot;Dictionaries&quot;">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_settings.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/api/local_sqlite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/api/local_sqlite/sqlite_ctrl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/api/qa_auto/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/api/qa_auto/qaauto_ctrl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/api/qa_auto/schema_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local_server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local_server/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local_server/db_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qaauto/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qaauto/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_get_current_negative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_get_current_positive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_get_current_positive_some_feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qaauto/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25/css_selectors_qauto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25/xpath_qauto.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_thirty/english.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a_thirty/english.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_thirty/file_handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_thirty/file_handling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api/gorest/gorest_contoller.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/gorest/gorest_contoller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/api/rest_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/rest_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api/swapi/get_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/swapi/get_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api/swapi/swapi_contoller.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/swapi/swapi_contoller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/csv_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/csv_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/exmple.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/exmple.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/homework_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/homework_13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/json_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/json_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/class_introduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/class_introduce.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/hm_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/hm_14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/lesson14_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/lesson14_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/parametrize_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/parametrize_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/self_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_14/self_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/homework_15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15/homework_15_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/test_rhombus_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15/test_rhombus_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/test_rhombus_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15/test_rhombus_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/homework_16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/homework_16_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/homework_16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/homework_16_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_abstract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_abstract_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/lesson_16_abstract_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/test_atributes_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/test_atributes_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/test_atributes_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16/test_atributes_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/decorator_1_log_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/decorator_1_log_arguments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/decorator_2_handle_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/decorator_2_handle_exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/generator_2_fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/generator_2_fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/iterator_1_sandwich.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/iterator_1_sandwich.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/iterator_2_even_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_18/iterator_2_even_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +128,14 @@
       <recent name="$PROJECT_DIR$/lesson_21" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson_25" />
       <recent name="$PROJECT_DIR$/core/api/qa_auto" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests" />
       <recent name="$PROJECT_DIR$/core/api" />
-      <recent name="$PROJECT_DIR$/a_thirty" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.schema_check">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
@@ -316,6 +266,15 @@
       <option name="presentableId" value="Default" />
       <updated>1721473297465</updated>
     </task>
+    <task id="LOCAL-00001" summary="add new list &quot;Dictionaries&quot;">
+      <option name="closed" value="true" />
+      <created>1734726315610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734726315610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

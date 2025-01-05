@@ -1,6 +1,9 @@
 import requests
 import logging
 
+
+requests.check_compatibility()
+
 logger = logging.getLogger('RestBase')
 
 
