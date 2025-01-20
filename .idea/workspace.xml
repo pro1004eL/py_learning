@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add new list &quot;Dictionaries&quot;">
-      <change afterPath="$PROJECT_DIR$/lesson_25/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_25/css_selectors_qauto.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_25/xpath_qauto.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_python_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/db_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/db_tests/orm_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/db_tests/orm_tests/sql_alchemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/db_tests/test_db_python_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui_tests/nova_poshta/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui_tests/nova_poshta/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui_tests/nova_poshta/test_tracking_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api/rest_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/rest_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_27/nova_poshta/pages/base_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,26 +125,26 @@
     "Python.version4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/Anton/python/python_learning/py_30_Days/tests/qa_auto"
+    "last_opened_file_path": "/Users/Anton/python/python_learning/py_30_Days/tests/db_tests/orm_tests"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/qa_auto" />
-      <recent name="$PROJECT_DIR$/core/api/local_sqlite" />
+      <recent name="$PROJECT_DIR$/tests/db_tests/orm_tests" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lesson_22" />
-      <recent name="$PROJECT_DIR$/lesson_21" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/ui_tests/nova_poshta" />
+      <recent name="$PROJECT_DIR$/tests/qa_auto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/db_tests" />
       <recent name="$PROJECT_DIR$/lesson_25" />
       <recent name="$PROJECT_DIR$/core/api/qa_auto" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests" />
-      <recent name="$PROJECT_DIR$/core/api" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
@@ -274,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734726315610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new list &quot;Dictionaries&quot;">
+      <option name="closed" value="true" />
+      <created>1736105351452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736105351452</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
