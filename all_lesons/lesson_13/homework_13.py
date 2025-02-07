@@ -14,7 +14,7 @@ files_with_json_extencion = [ f for f in current_dir.iterdir() if f.suffix == ex
 for file in files_with_json_extencion:
     print(file)
 
-with open('/Users/Anton/python/python_learning/py_30_Days/lesson_13/json__<your_second_name>.log', 'w') as file2:
+with open('/all_lesons/lesson_13/json__<your_second_name>.log', 'w') as file2:
     file2.write('not valid json')
 
 def log_json():

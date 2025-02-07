@@ -10,6 +10,8 @@ def test_create_user():
                  "status":"active"}
 
     GorestController().create_user(data=user_data)
+
+
 def test_create_user_auth_negative():
 
     user_data = {"name":"Tenali Ramakrishna",
