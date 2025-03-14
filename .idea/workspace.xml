@@ -4,130 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add new list &quot;Dictionaries&quot;">
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/locators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_4/strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_5/countries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_5/tuple.py" afterDir="false" />
+    <list default="true" id="bafb468b-a806-4dad-8512-e281d4d600cf" name="Changes" comment="add some new files and fixes minor bugs">
+      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_5/homework_5.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_7/countries-data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_7/homework_07 (1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_8/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_lesons/lesson_8/search_cars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/avr_height/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/capitalize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/concatinate_strings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/convert_to_24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/palindrome/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/prime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/search_cars/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/search_cars/test_search_cars_positive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/string_methods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/functions_tests/word_count/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_thirty/codingbat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/avr_height/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/avr_height/test_avr_height_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/avr_height/test_avr_height_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/capitalize/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/capitalize/test_capitalize_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/capitalize/test_capitalize_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/capitalize/test_capitalize_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/capitalize/test_capitalize_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/concatinate_strings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/avr_height/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/concatinate_strings/test_concatenate_str_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/concatinate_strings/test_concatenate_str_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/concatinate_strings/test_concatinate_str_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/concatinate_strings/test_concatinate_str_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/convert_to_24/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/capitalize/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/convert_to_24/test_convert_data_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/convert_to_24/test_convert_data_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/convert_to_24/test_convert_date_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/convert_to_24/test_convert_date_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/palindrome/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/concatinate_strings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/palindrome/test_is_palindrome_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/palindrome/test_is_palindrome_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/palindrome/test_is_palindrome_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/palindrome/test_is_palindrome_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/prime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/convert_to_24/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/prime/test_primes_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/prime/test_primes_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/repiting.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/repiting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/string_methods/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/palindrome/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/string_methods/test_string_methods_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/string_methods/test_string_methods_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/string_methods/test_string_methods_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/string_methods/test_string_methods_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/word_count/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/prime/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/word_count/test_word_count_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/word_count/test_word_count_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/word_count/test_word_count_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/word_count/test_word_count_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/string_methods/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/csv_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/csv_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/exmple.json" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/exmple.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/exmple2.json" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/exmple2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/homework_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/homework_13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/json__&lt;your_second_name&gt;.log" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/json__&lt;your_second_name&gt;.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/json_as_json.json" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/json_as_json.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/json_as_str.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/json_as_str.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/json_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/json_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/json_read_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/json_read_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/output.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_10/word_count/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/class_introduce.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_14/class_introduce.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/hm_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_14/hm_14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/lesson14_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_14/lesson14_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/parametrize_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_14/parametrize_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_14/self_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_14/self_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_13/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/homework_15_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_15/homework_15_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/lesson_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_15/lesson_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/test_rhombus_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_15/test_rhombus_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15/test_rhombus_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_15/test_rhombus_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_14/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/homework_16_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/homework_16_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/homework_16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/homework_16_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/lesson_16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/lesson_16_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/lesson_16_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/lesson_16_abstract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/lesson_16_abstract_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/lesson_16_abstract_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/test_atributes_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/test_atributes_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_16/test_atributes_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/test_atributes_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_15/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/decorator_1_log_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/decorator_1_log_arguments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/decorator_2_handle_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/decorator_2_handle_exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/generator_1_even_num.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/generator_1_even_num.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/generator_2_fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/generator_2_fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/iterator_1_sandwich.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/iterator_1_sandwich.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/iterator_2_even_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/iterator_2_even_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_16/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_18/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/gorest_tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/gorest_tests/pytest.log" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/gorest_tests/pytest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/gorest_tests/test_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/gorest_tests/test_create_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests/pytest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests/test_get_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/swapi_tests/test_get_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/api_tests/swapi_tests/test_get_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/swapi_tests/test_get_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_19/lesson_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/lesson_19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_20/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/gorest_tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_20/test_sqlite3.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_20/test_sqlite3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/swapi_tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21/datatime_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_21/datatime_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21/hblog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_21/hblog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21/time-module.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_21/time-module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21/time_delta_module2.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_21/time_delta_module2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21/timedelta_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_21/timedelta_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_19/api_tests/swapi_tests/pytest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_sqlalhemy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_20/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_sqlalhemy/tables/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_21/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_sqlalhemy/tables/course_students_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_sqlalhemy/tables/course_students_tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_sqlalhemy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/create_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/create_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/create_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/create_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/delete_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/delete_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/delete_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/delete_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/get _student_and_enrolled_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/get _student_and_enrolled_courses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/get_course_and_enrolled_students.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/get_course_and_enrolled_students.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/sql_alchemy_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/sql_alchemy_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/update_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/update_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_22/db_tests_sqlalhemy/orm_tests/update_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/update_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_sqlalhemy/tables/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25/css_selectors_qauto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_25/css_selectors_qauto.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25/xpath_qauto.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_25/xpath_qauto.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_22/db_tests_sqlalhemy/orm_tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/locators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_25/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/locators/tracking_package_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/nova_poshta/locators/tracking_package_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/nova_poshta/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/nova_poshta/pages/tracking_package_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/nova_poshta/pages/tracking_package_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/nova_poshta/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/locators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/nova_poshta/locators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/locators/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/locators/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/locators/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/locators/product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/nova_poshta/pages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_27/sausedemo/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_27/sausedemo/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_5/dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/avr_height/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_5/loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/avr_height/test_avr_height_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/avr_height/test_avr_height_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/capitalize/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_5/sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/capitalize/test_capitalize_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/capitalize/test_capitalize_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/capitalize/test_capitalize_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/capitalize/test_capitalize_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/concatinate_strings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_7/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/concatinate_strings/test_concatenate_str_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/concatinate_strings/test_concatenate_str_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/concatinate_strings/test_concatinate_str_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/concatinate_strings/test_concatinate_str_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/convert_to_24/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_7/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/convert_to_24/test_convert_data_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/convert_to_24/test_convert_data_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/convert_to_24/test_convert_date_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/convert_to_24/test_convert_date_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/palindrome/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_8/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/palindrome/test_is_palindrome_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/palindrome/test_is_palindrome_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/palindrome/test_is_palindrome_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/palindrome/test_is_palindrome_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/prime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_8/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/prime/test_primes_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/prime/test_primes_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/repiting.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/repiting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/string_methods/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/string_methods/test_string_methods_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/string_methods/test_string_methods_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/string_methods/test_string_methods_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/string_methods/test_string_methods_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/word_count/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/word_count/test_word_count_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/word_count/test_word_count_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_10/word_count/test_word_count_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/word_count/test_word_count_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_lesons/lesson_5/tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_lesons/lesson_5/tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/functions_tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/pytest.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/pytest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/test_get_current_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/test_get_current_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/test_get_current_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/test_get_current_positive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/test_get_current_positive_some_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/test_get_current_positive_some_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/qaauto/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api_tests/qaauto/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,110 +79,120 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for get_current.test_get_current_negative.executor": "Run",
-    "Python tests.Python tests for get_current.test_get_current_positive.executor": "Run",
-    "Python tests.Python tests for test_create_user.test_create_user.executor": "Run",
-    "Python tests.Python tests for test_create_user.test_create_user_auth_negative.executor": "Run",
-    "Python tests.Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature.executor": "Run",
-    "Python tests.Python tests for test_get_user.test_get_user.executor": "Run",
-    "Python tests.Python tests for test_get_user.test_get_users.executor": "Run",
-    "Python tests.Python tests for test_get_users.test_get_users_pages.executor": "Run",
-    "Python tests.Python tests in get_current.py.executor": "Run",
-    "Python tests.Python tests in parametrize_example.py.executor": "Run",
-    "Python tests.Python tests in qaauto.executor": "Run",
-    "Python tests.Python tests in test_atributes_from_Manager_and_Developer.py.executor": "Run",
-    "Python tests.Python tests in test_atributes_negative.py.executor": "Run",
-    "Python tests.Python tests in test_atributes_positive.py.executor": "Run",
-    "Python tests.Python tests in test_capitalize_negative.py.executor": "Run",
-    "Python tests.Python tests in test_create_user.py.executor": "Run",
-    "Python tests.Python tests in test_get_current.py.executor": "Run",
-    "Python tests.Python tests in test_get_current_negative.py.executor": "Run",
-    "Python tests.Python tests in test_get_current_positive.py.executor": "Run",
-    "Python tests.Python tests in test_get_user.py.executor": "Run",
-    "Python tests.Python tests in test_get_users.py.executor": "Run",
-    "Python tests.Python tests in test_rhombus_negative.py.executor": "Run",
-    "Python tests.Python tests in test_rhombus_positive.py.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.class_introduce.executor": "Run",
-    "Python.codingbat.executor": "Run",
-    "Python.comprehencion.executor": "Run",
-    "Python.conditionals.executor": "Run",
-    "Python.constants.executor": "Debug",
-    "Python.csv_example.executor": "Run",
-    "Python.datatime_module.executor": "Run",
-    "Python.dateandtime.executor": "Run",
-    "Python.datetime.executor": "Run",
-    "Python.decorator_1.executor": "Run",
-    "Python.decorator_1_log_arguments.executor": "Run",
-    "Python.decorator_2.executor": "Run",
-    "Python.decorator_2_handle_exceptions.executor": "Run",
-    "Python.dictionaries.executor": "Run",
-    "Python.exercises.executor": "Run",
-    "Python.file_handling.executor": "Run",
-    "Python.functions.executor": "Run",
-    "Python.generator_1.executor": "Run",
-    "Python.generator_2.executor": "Run",
-    "Python.get_current.executor": "Run",
-    "Python.get_image.executor": "Run",
-    "Python.hm_14.executor": "Run",
-    "Python.homework_13.executor": "Run",
-    "Python.homework_15_1.executor": "Run",
-    "Python.homework_16_1.executor": "Run",
-    "Python.homework_16_2.executor": "Run",
-    "Python.homework_21_1.executor": "Run",
-    "Python.iterator_1_sandwich.executor": "Run",
-    "Python.iterator_2_even_numbers.executor": "Run",
-    "Python.iterators.executor": "Debug",
-    "Python.json_example.executor": "Run",
-    "Python.lesson14_class.executor": "Run",
-    "Python.lesson22.executor": "Run",
-    "Python.lesson_16.executor": "Run",
-    "Python.lesson_16_2.executor": "Run",
-    "Python.lesson_16_3.executor": "Run",
-    "Python.lesson_16_abstract.executor": "Run",
-    "Python.lesson_19.executor": "Run",
-    "Python.lists.executor": "Run",
-    "Python.loops.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mymodule.executor": "Run",
-    "Python.qaauto_ctrl.executor": "Run",
-    "Python.regularEx1.executor": "Run",
-    "Python.rest_base.executor": "Run",
-    "Python.schema_check.executor": "Run",
-    "Python.self_example.executor": "Run",
-    "Python.settings.executor": "Run",
-    "Python.swapi_contoller.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.time-module.executor": "Run",
-    "Python.time_delta_module2.executor": "Run",
-    "Python.timedelta_module.executor": "Run",
-    "Python.tuple.executor": "Run",
-    "Python.tuples.executor": "Run",
-    "Python.version4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/Anton/python/python_learning/py_30_Days/tests/db_tests/orm_tests"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for get_current.test_get_current_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for get_current.test_get_current_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.test_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_user.test_create_user_auth_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_user.test_get_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_user.test_get_users.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_get_users.test_get_users_pages.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_search_cars_positive.test_case_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_search_cars_positive.test_search_cars_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in get_current.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in parametrize_example.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in qaauto.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_atributes_from_Manager_and_Developer.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_atributes_negative.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_atributes_positive.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_capitalize_negative.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_create_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_get_current.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_get_current_negative.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_get_current_positive.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_get_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_get_users.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_rhombus_negative.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_rhombus_positive.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_search_cars_positive.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_introduce.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codingbat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comprehencion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditionals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.constants.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.csv_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datatime_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dateandtime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator_1_log_arguments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator_2_handle_exceptions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercises.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_current.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hm_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_07 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_15_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_16_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_16_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_21_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_5.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterator_1_sandwich.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterator_2_even_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterators.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.json_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson14_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_16_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_16_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_16_abstract.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mymodule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qaauto_ctrl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regularEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rest_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.schema_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search_cars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search_cars_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python.self_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.settings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.swapi_contoller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.time-module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.time_delta_module2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.timedelta_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.version4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Anton/python/python_learning/py_30_Days/all_lesons/lesson_7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/all_lesons/lesson_7" />
+      <recent name="$PROJECT_DIR$/all_lesons/lesson_5" />
       <recent name="$PROJECT_DIR$/tests/db_tests/orm_tests" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests" />
-      <recent name="$PROJECT_DIR$/tests/ui_tests/nova_poshta" />
-      <recent name="$PROJECT_DIR$/tests/qa_auto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/api_tests" />
+      <recent name="$PROJECT_DIR$/tests/lesson_10" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/repeat_function_tests/search_cars" />
       <recent name="$PROJECT_DIR$/all_lesons" />
-      <recent name="$PROJECT_DIR$/tests/db_tests" />
-      <recent name="$PROJECT_DIR$/lesson_25" />
-      <recent name="$PROJECT_DIR$/core/api/qa_auto" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
@@ -301,21 +237,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="py_30_Days" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/qaauto" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_current_positive_some_feature.test_get_current_positive_some_feature&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_get_user.test_get_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
@@ -346,28 +267,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in qaauto" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_search_cars_positive.test_search_cars_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="py_30_Days" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/qaauto" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/functions_tests/search_cars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/qaauto&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_search_cars_positive.test_search_cars_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.functions_tests.search_cars.test_search_cars_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py_30_Days" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/all_lesons/lesson_8/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.functions_tests.search_cars.test_search_cars_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_search_cars_positive.test_search_cars_positive" />
+        <item itemvalue="Python tests.Python tests for tests.functions_tests.search_cars.test_search_cars_positive" />
         <item itemvalue="Python tests.Python tests for test_get_user.test_get_users" />
         <item itemvalue="Python tests.Python tests for test_get_user.test_get_user" />
         <item itemvalue="Python.schema_check" />
-        <item itemvalue="Python tests.Python tests in qaauto" />
-        <item itemvalue="Python tests.Python tests for test_get_current_positive_some_feature.test_get_current_positive_some_feature" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736105351452</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add some new files and fixes minor bugs">
+      <option name="closed" value="true" />
+      <created>1738937789173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738937789173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +363,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new list &quot;Dictionaries&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new list &quot;Dictionaries&quot;" />
+    <MESSAGE value="add some new files and fixes minor bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some new files and fixes minor bugs" />
   </component>
 </project>
